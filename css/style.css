@@ -1,0 +1,197 @@
+* {
+    background-color: black;
+    margin: 0 auto;
+    padding: 0;
+    box-sizing: border-box;
+}
+p {
+    color: white;
+    text-align: justify;
+}
+h1 {
+    color:#fff;
+}
+
+
+.menu {
+    width: 100vw;
+    list-style: none;
+    padding: 0;
+    background-color: rgba(34, 95, 36, 1);
+}
+.menu ul {
+    background-color: rgba(34, 95, 36, 1);
+    position: relative;
+    right: -790px;
+    list-style-type: none;
+    padding: 0;
+}
+.menu ul li {
+    display: inline;
+}
+.menu ul li a {
+    background-color: rgba(34, 95, 36, 1);
+    color: white;
+    padding: 20px;
+    display: inline-block;
+    text-decoration: none;
+    transition: background .3s;
+}
+.menu ul li a:hover {
+    background-color: chartreuse;
+}
+.menu ul img{ 
+    position: relative;
+    left: -790px;
+    background-color: rgba(34, 95, 36, 1);
+}
+#login {
+    border: none;
+    width: 85px;
+    height: 50px;
+    background-color:rgba(34, 95, 36, 1);
+}
+
+
+#foto1 {
+    margin: 30px;
+    width: 500px;
+    height: 250px;
+}
+#foto1, p {
+    display: inline-block;
+}
+.box1 {
+    display: flex;
+    width: fit-content;
+}
+#t1 {
+    color: white;
+    margin: 2%;
+    position: relative;
+    right: -500px;
+    width: 700px;
+}
+#t2 {
+    color: white;
+    margin: 30px;
+    text-align: justify;
+}
+
+
+#vendidos li {
+    display: inline;
+    padding: 40px;
+}
+#nomes li {
+    background: 0;
+    display: inline;
+    padding: 80px;
+}
+#t3 {
+    text-align: center;
+}
+
+
+.box-2 {
+    margin: 60px;
+    display: flex;
+    width: fit-content;
+}
+#text-t{
+    padding-left: 210px;
+    padding-bottom: 20px;
+}
+.box-2 text {
+    display: block;
+}
+#img-box2 {
+    margin-right: 10px;
+}
+#text-p {
+    margin-right: 30px;
+}
+
+#text-box3 {
+    text-align: center;
+    padding-top: 30px;
+    padding-bottom: 20px;
+}
+.box3 {
+    margin: 0 auto;
+    width: 800px;
+    height: 400px;
+    overflow: hidden;
+}
+.sliders {
+    width: 400%;
+    height: 400px;
+    display: flex;
+}
+.sliders input {
+    display: none;
+}
+.slide {
+    width: 25%;
+    position: relative;
+}
+.slide img {
+    width: 800px;
+}
+.manual-navigation {
+    position: absolute;
+    width: 800px;
+    margin-top: 10px;
+    display: flex;
+    justify-content: center;
+}
+.manual-btn {
+    border: 2px solid #fff;
+    padding: 5px;
+    border-radius: 10px;
+    cursor: pointer;
+    transition: 1s;
+}
+.manual-btn:not(:last-child) {
+    margin-right: 40px;
+}
+.manual-btn:hover {
+    background-color: #fff;
+}
+#radio1:checked ~ .first{
+    margin-left: 0;
+}
+#radio2:checked ~ .first{
+    margin-left: -32%;
+}
+#radio3:checked ~ .first{
+    margin-left: -91%;
+}
+#radio4:checked ~ .first{
+    margin-left: -220%;
+}
+.navigation-auto div {
+    border: 2px solid #20a6ff;
+    padding: 5px;
+    border-radius: 10px;
+    cursor: pointer;
+    transition: 1s;
+}
+.fin {
+    margin: 50px;
+}
+.footer{
+    color: white;
+    text-align: center;
+}
+#voltar-topo{
+    background-color: transparent;
+    border-color: yellowgreen;
+    border-radius: 15px;
+    width: 10vw;
+    height: 10vh;
+    color: #fff;
+    position: fixed;
+    bottom: 5px;
+    right: 50px;
+}
